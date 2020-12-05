@@ -61,6 +61,7 @@ public enum RecognitionLanguage {
   case irish
   case javanese
   case japanese
+  case japaneseVertical
   case kannada
   case kazakh
   case korean
@@ -173,6 +174,7 @@ extension RecognitionLanguage: CustomStringConvertible {
     case .irish: return "gle"
     case .javanese: return "jav"
     case .japanese: return "jpn"
+    case .japaneseVertical: return "jpn_vert"
     case .kannada: return "kan"
     case .kazakh: return "kaz"
     case .korean: return "kor"
